@@ -8,13 +8,15 @@ This repository's purpose is to create classes that fulfill a particular functio
 
 Note: The repository is named after Nodes, but ultimately any general-purpose type is welcome here (References, Resources, etc.).
 
-[Jump to Class List](https://github.com/willnationsdev/godot-next#classes)
+If you like the project, please star it. If you'd like to support it's development, please [send tips to my Kofi](https://ko-fi.com/willnationsdev).
+
+[Jump to Class List](#classes)
 
 ## How to Use
 
 1. Create or open a project.
 
-2. Go to the Asset Library tab, search for "Godot NExt" and install the plugin.
+2. Download the repo from GitHub directly. I don't bother updating the AssetLib version anymore. ~~Go to the Asset Library tab, search for "Godot NExt" and install the plugin.~~
 
 3. Open Project Settings and go to the Plugins tab.
 
@@ -53,8 +55,10 @@ That's it! I hope you've got ideas of what you'd like to share with others.
 |Linkable Node Name|Description|Language
 |-|-|-|
 |[Array2D](addons/godot-next/references/array_2d.gd)|A 2D Array class.|GDScript
+|[ClassType](addons/godot-next/references/class_type.gd)|A class abstraction, both for engine and user-defined types.|GDScript
 |[CSVFile](addons/godot-next/references/csv_file.gd)|Similar to ConfigFile, parses a .csv file. Can generate a key-value store from rows. Supports .tsv files.|GDScript
 |[Cycle](addons/godot-next/gui/cycle.gd)|Cycles through child nodes without any visibility or container effects.|GDScript
+|[EditorTools](addons/godot-next/global/editor_tools.gd)|A utility for any features useful in the context of the Editor.|GDScript
 |[FileSystemLink](addons/godot-next/global/file_system_link.gd)|A utility for creating links (file/directory, symbolic/hard).|GDScript
-|[Trail2D](addons/godot-next/2d/trails.gd)|Creates a variable-length trail that tracks a "target" node.|GDScript
+|[Trail2D](addons/godot-next/2d/trail_2d.gd)|Creates a variable-length trail that tracks a "target" node.|GDScript
 |[VBoxItemList](addons/godot-next/gui/v_box_item_list.gd)|Creates a vertical list of items that can be added or removed. Items are a user-specified Script or Scene Control.|GDScript
